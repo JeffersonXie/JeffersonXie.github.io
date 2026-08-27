@@ -47,7 +47,7 @@ My early research began with human facial attribute analysis, which taught me th
 Building on this generative perspective, my current applied research focuses on human-centric dynamic world modeling and simulation. This framework centers on humans and their surrounding environments, driven by three fundamental processes: reconstruction, inference, and interaction. I hope that advancing these technical frontiers will empower us with greater freedom, both materially and spiritually.
 
 <p style="margin-top: 2em;">
-<strong>Prospective students</strong>: If you are interested in joining my research group, please email me with your CV.
+<strong>Prospective master's and undergraduate students</strong>: If you are interested in joining my research group, please email me with your CV.
 </p>
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.

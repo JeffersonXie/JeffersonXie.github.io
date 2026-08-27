@@ -15,7 +15,7 @@ layout: default
     {% endcomment %}
     <h1 class="post-title">
       {% if site.title == 'blank' %}
-        <span class="font-weight-bold">{{ site.first_name }}{% if site.middle_name %} {{ site.middle_name }}{% endif %} {{ site.last_name }}</span>
+        <span class="font-weight-bold">{{ site.first_name }}{% if site.middle_name %} {{ site.middle_name }}{% endif %} {{ site.last_name }} 谢九成</span>
       {% else %}
         {{ site.title }}
       {% endif %}
@@ -77,10 +77,15 @@ layout: default
     {% endif %} {% endcomment %}
     {% if page.selected_papers %}
       <h2 style="margin-top: 2em;">
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
+        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Selected Publications</a>
       </h2>
       {% include selected_papers.liquid %}
     {% endif %}
+
+    {% include teaching.liquid %}
+
+    {% include professional_service.liquid %}
+
 
     <!-- Social -->
     {% if page.social %}
